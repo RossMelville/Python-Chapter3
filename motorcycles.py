@@ -25,3 +25,9 @@ print(motorcycles)
 popped_motorcycle = motorcycles.pop()
 print(motorcycles)
 print(popped_motorcycle)
+
+print("The last motorcycle I bought was a " + popped_motorcycle + ".")
+
+first_motorcycle = motorcycles.pop(0)
+
+print("The first motorcycle I owned was a " + first_motorcycle + ".")
