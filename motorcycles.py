@@ -31,3 +31,11 @@ print("The last motorcycle I bought was a " + popped_motorcycle + ".")
 first_motorcycle = motorcycles.pop(0)
 
 print("The first motorcycle I owned was a " + first_motorcycle + ".")
+
+motorcycles = ['honda', 'yamaha', 'ducati', 'suzuki']
+print(motorcycles)
+
+too_expensive = 'ducati'
+motorcycles.remove(too_expensive)
+print(motorcycles)
+print("\nA " + too_expensive.title() + " is too expensive for me.")
