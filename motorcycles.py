@@ -21,3 +21,7 @@ print(motorcycles)
 
 del motorcycles[0]
 print(motorcycles)
+
+popped_motorcycle = motorcycles.pop()
+print(motorcycles)
+print(popped_motorcycle)
