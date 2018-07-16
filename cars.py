@@ -12,3 +12,6 @@ print(sorted(cars))
 
 print("\nHere is the original list again:")
 print(cars)
+
+cars.sort(reverse=True)
+print(cars)
